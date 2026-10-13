@@ -2,8 +2,9 @@
 
 Checked on 13 October 2026 using an isolated Chrome browser and a local HTTP server serving this project's public directory.
 
-- Desktop 1440px, tablet 768px and mobile 360px: rendered and visually reviewed; no horizontal overflow.
-- Existing wordmark and symbol load correctly at all checked widths.
+- Desktop 1440px, tablet 768px and mobile 320px/360px: rendered and visually reviewed; no horizontal overflow.
+- Existing wordmark and the CSS-layered Eigen symbol render correctly at all checked widths.
+- Refined navigation, service dividers, rounded email buttons and dark About panel were visually reviewed.
 - The self-hosted Manrope font loads successfully.
 - Main navigation and the back-to-top link point to existing sections.
 - All three email links use the confirmed address and subject Enquiry for Eigen.
@@ -17,4 +18,4 @@ Checked on 13 October 2026 using an isolated Chrome browser and a local HTTP ser
 
 ## Launch checks still required
 
-No Vercel production deployment or DNS changes were made. After deploying, verify the public production URL, both custom domains, the www redirect and HTTPS in an anonymous browser. Local preview does not validate Vercel's production routing or certificate issuance.
+Production domain routing and certificate issuance were not checked in this local verification pass. After deployment, verify both custom domains, the www redirect and HTTPS in an anonymous browser. Local preview does not validate Vercel's production routing or certificate issuance.

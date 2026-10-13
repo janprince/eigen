@@ -53,7 +53,7 @@ The footer's copyright year is static. Update it when appropriate. If the primar
 
 ## Assets and licensing
 
-The Eigen wordmark and symbol come from the supplied brand assets. Only empty canvas was trimmed and web formats prepared; the design has not been redrawn.
+The Eigen wordmark and symbol come from the supplied brand assets. Only empty canvas was trimmed and web formats prepared; the design has not been redrawn. The decorative hero treatment uses static CSS layers of the existing symbol.
 
 Manrope is self-hosted under the SIL Open Font License. Its license is included at `public/assets/fonts/OFL.txt`. Source: [Google Fonts Manrope](https://github.com/google/fonts/tree/main/ofl/manrope).
 
