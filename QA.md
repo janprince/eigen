@@ -19,4 +19,8 @@ Checked on 13 October 2026 using an isolated Chrome browser and a local HTTP ser
 
 ## Launch checks still required
 
-Production domain routing and certificate issuance were not checked in this local verification pass. After deployment, verify both custom domains, the www redirect and HTTPS in an anonymous browser. Local preview does not validate Vercel's production routing or certificate issuance.
+Production domain routing and certificate issuance were not checked in this local verification pass. After deployment, verify both custom domains, the apex-to-www redirect and HTTPS in an anonymous browser. Local preview does not validate Vercel's production routing or certificate issuance.
+
+## Custom domain fix
+
+Diagnosed a loop between Vercel’s apex-to-www domain redirect and the opposite www-to-apex redirect formerly in vercel.json. Removed the source redirect so Vercel’s Domains settings are the only authority. Canonical, Open Graph, Twitter image, robots and sitemap URLs now use https://www.eigenroot.com. The website design and hero were not changed.

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://eigenroot.com/sitemap.xml
+Sitemap: https://www.eigenroot.com/sitemap.xml
