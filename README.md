@@ -47,7 +47,7 @@ Open `http://localhost:3000`. Use a local web server rather than opening the HTM
 - Hosting configuration and the `www` redirect: `vercel.json`.
 - Search and link previews: metadata in `public/index.html`, plus `public/sitemap.xml`, `public/robots.txt` and `public/assets/social-preview.png`.
 
-To change the email address, replace every occurrence of `janprince121@gmail.com` in `public/index.html`, including all three `mailto:` links. Keep the URL-encoded subject `Enquiry%20for%20Eigen` or update it deliberately.
+To change the email address, replace every occurrence of `info@eigenroot.com` in `public/index.html`, including all three `mailto:` links. Keep the URL-encoded subject `Enquiry%20for%20Eigen` or update it deliberately.
 
 The footer's copyright year is static. Update it when appropriate. If the primary domain changes, also update canonical/social URLs, the sitemap, robots file and redirect.
 
@@ -59,4 +59,4 @@ Manrope is self-hosted under the SIL Open Font License. Its license is included 
 
 ## Public information
 
-The website displays the Eigen brand, the legal name EIGEN ROOT TECH LTD, Accra, Ghana, and the confirmed email address. Private products, phone numbers, the premises address and registration documents are not included.
+The website displays the Eigen brand, the legal name EIGEN ROOT TECH LTD, Accra, Ghana, and the confirmed email address. GRID is listed as an upcoming home services product for Ghana, starting with home cleaning and laundry. Other private products, phone numbers, the premises address and registration documents are not included.

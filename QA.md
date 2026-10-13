@@ -7,12 +7,13 @@ Checked on 13 October 2026 using an isolated Chrome browser and a local HTTP ser
 - Refined navigation, service dividers, rounded email buttons and dark About panel were visually reviewed.
 - The self-hosted Manrope font loads successfully.
 - Main navigation and the back-to-top link point to existing sections.
-- All three email links use the confirmed address and subject Enquiry for Eigen.
+- All three email links use info@eigenroot.com and subject Enquiry for Eigen. The visible contact email is info@eigenroot.com.
 - The keyboard skip link works and visible focus is provided.
 - Foreground/background contrast: dark text on white 17.77:1; muted text on white 5.79:1; muted text on the grey surface 5.30:1; button text on blue 5.46:1.
 - No browser runtime errors or failed asset requests occurred during the checks.
 - The custom 404 page links back to the homepage.
-- No public phone number, premises address, private product details, customer claims, forms or analytics scripts are included.
+- GRID is explicitly marked Coming soon, with home cleaning and laundry described as its initial planned services. No booking, download or waitlist action implies it is already available.
+- No public phone number, premises address, other private product details, customer claims, forms or analytics scripts are included.
 - Vercel configuration fields were reviewed against Vercel's current configuration schema. No framework or build is required.
 - DNS checks confirm Namecheap nameservers and existing registrar-servers.com email-forwarding MX records.
 

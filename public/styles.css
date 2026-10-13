@@ -163,6 +163,38 @@ h2 { font-size: clamp(32px, 3.4vw, 46px); letter-spacing: -.05em; font-weight: 6
   .legal > p:first-child { font-size: 9px; }
   .back-top { margin-left: 0; }
 }
+/* Featured upcoming product; GRID colours match its existing app identity. */
+.products { border-top: 1px solid var(--line); }
+.products-intro { display: flex; align-items: end; justify-content: space-between; gap: 40px; margin-bottom: 37px; }
+.products-intro > p { max-width: 340px; font-size: 15px; line-height: 1.8; color: var(--muted); }
+.product-feature { display: grid; grid-template-columns: 1.25fr 1fr; overflow: hidden; border: 1px solid var(--line); border-radius: 24px; background: #f6f7f9; }
+.product-copy { padding: 48px; }
+.product-status { display: inline-block; padding: 7px 12px; border: 1px solid #d5dbe4; border-radius: 100px; font-size: 11px; line-height: 1.3; font-weight: 650; color: #5a6a82; }
+.product-copy h3 { margin-top: 22px; font-size: 46px; line-height: 1.1; font-weight: 800; letter-spacing: -.035em; }
+.product-copy .product-lead { margin-top: 15px; font-size: 22px; line-height: 1.45; letter-spacing: -.025em; font-weight: 600; }
+.product-copy > p:not(.product-lead) { max-width: 430px; margin-top: 17px; font-size: 14px; line-height: 1.9; color: var(--muted); }
+.product-categories { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; margin: 25px 0 0; padding: 0; }
+.product-categories li { padding: 7px 12px; border-radius: 6px; background: white; color: #5a6a82; font-size: 11px; font-weight: 600; border: 1px solid #e6e9ef; }
+.grid-identity { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 25px; min-height: 340px; background: #13294b; color: white; padding: 45px; }
+.grid-glyph { width: 126px; height: 126px; }
+.grid-wordmark { font-size: 50px; font-weight: 800; line-height: 1; letter-spacing: .035em; }
+@media (max-width: 1000px) {
+  .product-copy { padding: 35px; }
+  .products-intro { gap: 40px; }
+  .grid-identity { padding: 35px; }
+}
+@media (max-width: 700px) {
+  nav { gap: 10px; }
+  .products-intro { flex-direction: column; align-items: flex-start; gap: 15px; margin-bottom: 28px; }
+  .product-feature { grid-template-columns: 1fr; border-radius: 20px; }
+  .product-copy { padding: 30px 25px; }
+  .product-copy h3 { font-size: 39px; }
+  .product-copy .product-lead { font-size: 21px; }
+  .grid-identity { min-height: 230px; gap: 20px; padding: 32px; }
+  .grid-glyph { width: 88px; height: 88px; }
+  .grid-wordmark { font-size: 36px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
